@@ -17,8 +17,7 @@ struct HomeModule {
         let interactor = HomeInteractor(playerWebService: PlayersWebService())
         let presenter = HomePresenter(wireframe: wireframe,
                                             interactor: interactor,
-                                            userInterface: viewController,
-                                            playerGame: PlayerGame())
+                                            userInterface: viewController)
         
         wireframe.presenter = presenter
         wireframe.viewController = viewController
