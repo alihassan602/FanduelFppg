@@ -37,12 +37,12 @@ extension HomePresenter: HomeViewOutput {
     
     func viewDidLoad() {
         interactor.requestPlayers()
-        userInterface.showLoadingView()
+        userInterface.showLoadingView(true)
     }
     
     func didTapRetry() {
         interactor.requestPlayers()
-        userInterface.showLoadingView()
+        userInterface.showLoadingView(true)
     }
     
 }
@@ -53,11 +53,11 @@ extension HomePresenter: HomeInteractorOutput {
     
     func playerLoadSuccess(players: [Player]) {
         playerGame.setupWithPlayers(players)
-        userInterface.hideLoadingView()
+        userInterface.showLoadingView(false)
     }
     
     func playerLoadFailed() {
-        userInterface.hideLoadingView()
-        userInterface.showNetworkError()
+        userInterface.showLoadingView(false)
+        userInterface.showErrorView(true)
     }
 }
