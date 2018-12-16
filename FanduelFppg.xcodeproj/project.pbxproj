@@ -16,6 +16,7 @@
 		4177034021C6F70500BDED0C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177033F21C6F70500BDED0C /* Player.swift */; };
 		4177034321C6F71A00BDED0C /* BaseWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177034221C6F71A00BDED0C /* BaseWebService.swift */; };
 		4177034521C6F77300BDED0C /* PlayersWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177034421C6F77300BDED0C /* PlayersWebService.swift */; };
+		4177034721C6F8B900BDED0C /* PlayerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177034621C6F8B900BDED0C /* PlayerGame.swift */; };
 		41B1F93621C6F163008ECEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F93521C6F163008ECEF1 /* AppDelegate.swift */; };
 		41B1F93D21C6F164008ECEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93C21C6F164008ECEF1 /* Assets.xcassets */; };
 		41B1F94021C6F164008ECEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */; };
@@ -44,6 +45,7 @@
 		4177033F21C6F70500BDED0C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		4177034221C6F71A00BDED0C /* BaseWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebService.swift; sourceTree = "<group>"; };
 		4177034421C6F77300BDED0C /* PlayersWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersWebService.swift; sourceTree = "<group>"; };
+		4177034621C6F8B900BDED0C /* PlayerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerGame.swift; sourceTree = "<group>"; };
 		41B1F93221C6F163008ECEF1 /* FanduelFppg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanduelFppg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B1F93521C6F163008ECEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41B1F93C21C6F164008ECEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				4177034121C6F70D00BDED0C /* WebService */,
 				4177033E21C6F6EF00BDED0C /* Model */,
+				4177034621C6F8B900BDED0C /* PlayerGame.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				4177034521C6F77300BDED0C /* PlayersWebService.swift in Sources */,
 				4177034021C6F70500BDED0C /* Player.swift in Sources */,
 				4177031321C6F46000BDED0C /* HomeWireframe.swift in Sources */,
+				4177034721C6F8B900BDED0C /* PlayerGame.swift in Sources */,
 				4177031421C6F46000BDED0C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

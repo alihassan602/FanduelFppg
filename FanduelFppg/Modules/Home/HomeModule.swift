@@ -14,10 +14,11 @@ struct HomeModule {
     static func build() -> HomeModule {
         let viewController = HomeViewController(nibName: nil, bundle: nil)
         let wireframe = HomeWireframe()
-        let interactor = HomeInteractor()
+        let interactor = HomeInteractor(playerWebService: PlayersWebService())
         let presenter = HomePresenter(wireframe: wireframe,
                                             interactor: interactor,
-                                            userInterface: viewController)
+                                            userInterface: viewController,
+                                            playerGame: PlayerGame())
         
         wireframe.presenter = presenter
         wireframe.viewController = viewController

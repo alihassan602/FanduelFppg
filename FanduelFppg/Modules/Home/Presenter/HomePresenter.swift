@@ -5,28 +5,59 @@
 
 import Foundation
 
-protocol HomeViewOutput: class { }
+protocol HomeViewOutput: class {
+    func viewDidLoad()
+    func didTapRetry()
+}
 
-protocol HomeInteractorOutput: class { }
+protocol HomeInteractorOutput: class {
+    func playerLoadSuccess(players: [Player])
+    func playerLoadFailed()
+}
 
 class HomePresenter {
     
     private let wireframe: IHomeWireframe
     private let interactor: HomeInteractorInput
     private weak var userInterface: HomeViewInput!
+    private let playerGame: IPlayerGame
     
-    init(wireframe: IHomeWireframe, interactor: HomeInteractorInput, userInterface: HomeViewInput) {
+    init(wireframe: IHomeWireframe, interactor: HomeInteractorInput, userInterface: HomeViewInput, playerGame: IPlayerGame) {
         self.wireframe = wireframe
         self.interactor = interactor
         self.userInterface = userInterface
+        self.playerGame = playerGame
     }
     
 }
 
 // MARK: - HomeViewOutput
 
-extension HomePresenter: HomeViewOutput { }
+extension HomePresenter: HomeViewOutput {
+    
+    func viewDidLoad() {
+        interactor.requestPlayers()
+        userInterface.showLoadingView()
+    }
+    
+    func didTapRetry() {
+        interactor.requestPlayers()
+        userInterface.showLoadingView()
+    }
+    
+}
 
 // MARK: - HomeInteractorOutput
 
-extension HomePresenter: HomeInteractorOutput { }
+extension HomePresenter: HomeInteractorOutput {
+    
+    func playerLoadSuccess(players: [Player]) {
+        playerGame.setupWithPlayers(players)
+        userInterface.hideLoadingView()
+    }
+    
+    func playerLoadFailed() {
+        userInterface.hideLoadingView()
+        userInterface.showNetworkError()
+    }
+}
