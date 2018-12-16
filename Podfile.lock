@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.8.0)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - Nimble (7.3.1)
+  - Nuke (7.5.1)
+  - Quick (1.3.2)
+  - TinyConstraints (3.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CodableAlamofire (from `https://github.com/xdci/CodableAlamofire`)
+  - Nimble
+  - Nuke
+  - Quick
+  - TinyConstraints (from `https://github.com/roberthein/TinyConstraints.git`, branch `release/Swift-4.2`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Nimble
+    - Nuke
+    - Quick
+
+EXTERNAL SOURCES:
+  CodableAlamofire:
+    :git: https://github.com/xdci/CodableAlamofire
+  TinyConstraints:
+    :branch: release/Swift-4.2
+    :git: https://github.com/roberthein/TinyConstraints.git
+
+CHECKOUT OPTIONS:
+  CodableAlamofire:
+    :commit: 76cefb65512f5d396d7f685ddee2768e1eb59ca5
+    :git: https://github.com/xdci/CodableAlamofire
+  TinyConstraints:
+    :commit: 6e7e5bcb68368bac126adb2d847b164dc033249e
+    :git: https://github.com/roberthein/TinyConstraints.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  CodableAlamofire: 2183509f080b5ef2d50b19ce8274cbc21bee5dfc
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  Nuke: 3814db501e55f17951451839c726ffd91641e9a5
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
+  TinyConstraints: 5ca700872f726c49d10829d7b00f31e4ec731f36
+
+PODFILE CHECKSUM: 3e374af8cf9ae1cea0ad18f883b2c7463adf4134
+
+COCOAPODS: 1.5.3

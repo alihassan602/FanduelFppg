@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A78C9C181D9C9E9661C851 /* Pods_FanduelFppg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4B77E5CB3D8571A42E782F /* Pods_FanduelFppg.framework */; };
 		41B1F93621C6F163008ECEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F93521C6F163008ECEF1 /* AppDelegate.swift */; };
-		41B1F93821C6F163008ECEF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F93721C6F163008ECEF1 /* ViewController.swift */; };
-		41B1F93B21C6F163008ECEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93921C6F163008ECEF1 /* Main.storyboard */; };
 		41B1F93D21C6F164008ECEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93C21C6F164008ECEF1 /* Assets.xcassets */; };
 		41B1F94021C6F164008ECEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */; };
 		41B1F94B21C6F164008ECEF1 /* FanduelFppgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F94A21C6F164008ECEF1 /* FanduelFppgTests.swift */; };
+		F5B16BF8E8C7E9296310C416 /* Pods_FanduelFppgTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297D94E04B923628203AFDC6 /* Pods_FanduelFppgTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +26,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4B77E5CB3D8571A42E782F /* Pods_FanduelFppg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanduelFppg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297D94E04B923628203AFDC6 /* Pods_FanduelFppgTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanduelFppgTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B1F93221C6F163008ECEF1 /* FanduelFppg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanduelFppg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B1F93521C6F163008ECEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41B1F93721C6F163008ECEF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41B1F93A21C6F163008ECEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41B1F93C21C6F164008ECEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41B1F93F21C6F164008ECEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41B1F94121C6F164008ECEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B1F94621C6F164008ECEF1 /* FanduelFppgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanduelFppgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B1F94A21C6F164008ECEF1 /* FanduelFppgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanduelFppgTests.swift; sourceTree = "<group>"; };
 		41B1F94C21C6F164008ECEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754B5DFC1689BADA91047CF5 /* Pods-FanduelFppgTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanduelFppgTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanduelFppgTests/Pods-FanduelFppgTests.release.xcconfig"; sourceTree = "<group>"; };
+		9425003F31C9CDEC1641C3F7 /* Pods-FanduelFppg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanduelFppg.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanduelFppg/Pods-FanduelFppg.debug.xcconfig"; sourceTree = "<group>"; };
+		9509E6E0864955FD2484B9B2 /* Pods-FanduelFppgTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanduelFppgTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanduelFppgTests/Pods-FanduelFppgTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA0F514EE82615D21BFDC55 /* Pods-FanduelFppg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanduelFppg.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanduelFppg/Pods-FanduelFppg.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A78C9C181D9C9E9661C851 /* Pods_FanduelFppg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +55,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B16BF8E8C7E9296310C416 /* Pods_FanduelFppgTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2845F1EABE99B5D43C8689A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9425003F31C9CDEC1641C3F7 /* Pods-FanduelFppg.debug.xcconfig */,
+				BBA0F514EE82615D21BFDC55 /* Pods-FanduelFppg.release.xcconfig */,
+				9509E6E0864955FD2484B9B2 /* Pods-FanduelFppgTests.debug.xcconfig */,
+				754B5DFC1689BADA91047CF5 /* Pods-FanduelFppgTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EA654DF10B5BF8DE921EE6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B4B77E5CB3D8571A42E782F /* Pods_FanduelFppg.framework */,
+				297D94E04B923628203AFDC6 /* Pods_FanduelFppgTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		41B1F92921C6F163008ECEF1 = {
 			isa = PBXGroup;
 			children = (
 				41B1F93421C6F163008ECEF1 /* FanduelFppg */,
 				41B1F94921C6F164008ECEF1 /* FanduelFppgTests */,
 				41B1F93321C6F163008ECEF1 /* Products */,
+				2845F1EABE99B5D43C8689A4 /* Pods */,
+				2EA654DF10B5BF8DE921EE6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				41B1F93521C6F163008ECEF1 /* AppDelegate.swift */,
-				41B1F93721C6F163008ECEF1 /* ViewController.swift */,
-				41B1F93921C6F163008ECEF1 /* Main.storyboard */,
 				41B1F93C21C6F164008ECEF1 /* Assets.xcassets */,
 				41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */,
 				41B1F94121C6F164008ECEF1 /* Info.plist */,
@@ -103,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B1F94F21C6F164008ECEF1 /* Build configuration list for PBXNativeTarget "FanduelFppg" */;
 			buildPhases = (
+				63C8036B8E73139059930DB4 /* [CP] Check Pods Manifest.lock */,
 				41B1F92E21C6F163008ECEF1 /* Sources */,
 				41B1F92F21C6F163008ECEF1 /* Frameworks */,
 				41B1F93021C6F163008ECEF1 /* Resources */,
+				D56D175D9E5AD63BC74B247B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B1F95221C6F164008ECEF1 /* Build configuration list for PBXNativeTarget "FanduelFppgTests" */;
 			buildPhases = (
+				668F74D5CF5AD3016F5104DD /* [CP] Check Pods Manifest.lock */,
 				41B1F94221C6F164008ECEF1 /* Sources */,
 				41B1F94321C6F164008ECEF1 /* Frameworks */,
 				41B1F94421C6F164008ECEF1 /* Resources */,
+				03365157A44029E8E71CA95A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,7 +209,6 @@
 			files = (
 				41B1F94021C6F164008ECEF1 /* LaunchScreen.storyboard in Resources */,
 				41B1F93D21C6F164008ECEF1 /* Assets.xcassets in Resources */,
-				41B1F93B21C6F163008ECEF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +221,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03365157A44029E8E71CA95A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FanduelFppgTests/Pods-FanduelFppgTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanduelFppgTests/Pods-FanduelFppgTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C8036B8E73139059930DB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanduelFppg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668F74D5CF5AD3016F5104DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanduelFppgTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56D175D9E5AD63BC74B247B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FanduelFppg/Pods-FanduelFppg-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanduelFppg/Pods-FanduelFppg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41B1F92E21C6F163008ECEF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B1F93821C6F163008ECEF1 /* ViewController.swift in Sources */,
 				41B1F93621C6F163008ECEF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		41B1F93921C6F163008ECEF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41B1F93A21C6F163008ECEF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,6 +477,7 @@
 		};
 		41B1F95021C6F164008ECEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9425003F31C9CDEC1641C3F7 /* Pods-FanduelFppg.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +496,7 @@
 		};
 		41B1F95121C6F164008ECEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA0F514EE82615D21BFDC55 /* Pods-FanduelFppg.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +515,7 @@
 		};
 		41B1F95321C6F164008ECEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9509E6E0864955FD2484B9B2 /* Pods-FanduelFppgTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +537,7 @@
 		};
 		41B1F95421C6F164008ECEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754B5DFC1689BADA91047CF5 /* Pods-FanduelFppgTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
