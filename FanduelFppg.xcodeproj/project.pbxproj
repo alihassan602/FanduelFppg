@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		36A78C9C181D9C9E9661C851 /* Pods_FanduelFppg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4B77E5CB3D8571A42E782F /* Pods_FanduelFppg.framework */; };
+		4177031221C6F46000BDED0C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177030A21C6F46000BDED0C /* HomePresenter.swift */; };
+		4177031321C6F46000BDED0C /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177030C21C6F46000BDED0C /* HomeWireframe.swift */; };
+		4177031421C6F46000BDED0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177030E21C6F46000BDED0C /* HomeViewController.swift */; };
+		4177031521C6F46000BDED0C /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177030F21C6F46000BDED0C /* HomeModule.swift */; };
+		4177031621C6F46000BDED0C /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177031121C6F46000BDED0C /* HomeInteractor.swift */; };
 		41B1F93621C6F163008ECEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F93521C6F163008ECEF1 /* AppDelegate.swift */; };
 		41B1F93D21C6F164008ECEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93C21C6F164008ECEF1 /* Assets.xcassets */; };
 		41B1F94021C6F164008ECEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */; };
@@ -28,6 +33,11 @@
 /* Begin PBXFileReference section */
 		1B4B77E5CB3D8571A42E782F /* Pods_FanduelFppg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanduelFppg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		297D94E04B923628203AFDC6 /* Pods_FanduelFppgTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanduelFppgTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4177030A21C6F46000BDED0C /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		4177030C21C6F46000BDED0C /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		4177030E21C6F46000BDED0C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4177030F21C6F46000BDED0C /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
+		4177031121C6F46000BDED0C /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		41B1F93221C6F163008ECEF1 /* FanduelFppg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanduelFppg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B1F93521C6F163008ECEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41B1F93C21C6F164008ECEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +92,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4177030721C6F46000BDED0C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4177030821C6F46000BDED0C /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4177030821C6F46000BDED0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4177030921C6F46000BDED0C /* Presenter */,
+				4177030B21C6F46000BDED0C /* Wireframe */,
+				4177030D21C6F46000BDED0C /* View */,
+				4177030F21C6F46000BDED0C /* HomeModule.swift */,
+				4177031021C6F46000BDED0C /* Interactor */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4177030921C6F46000BDED0C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4177030A21C6F46000BDED0C /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4177030B21C6F46000BDED0C /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				4177030C21C6F46000BDED0C /* HomeWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		4177030D21C6F46000BDED0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4177030E21C6F46000BDED0C /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4177031021C6F46000BDED0C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4177031121C6F46000BDED0C /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		41B1F92921C6F163008ECEF1 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +167,7 @@
 		41B1F93421C6F163008ECEF1 /* FanduelFppg */ = {
 			isa = PBXGroup;
 			children = (
+				4177030721C6F46000BDED0C /* Modules */,
 				41B1F93521C6F163008ECEF1 /* AppDelegate.swift */,
 				41B1F93C21C6F164008ECEF1 /* Assets.xcassets */,
 				41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */,
@@ -326,6 +389,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B1F93621C6F163008ECEF1 /* AppDelegate.swift in Sources */,
+				4177031221C6F46000BDED0C /* HomePresenter.swift in Sources */,
+				4177031521C6F46000BDED0C /* HomeModule.swift in Sources */,
+				4177031621C6F46000BDED0C /* HomeInteractor.swift in Sources */,
+				4177031321C6F46000BDED0C /* HomeWireframe.swift in Sources */,
+				4177031421C6F46000BDED0C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
