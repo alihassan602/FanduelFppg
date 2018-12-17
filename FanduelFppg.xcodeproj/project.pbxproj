@@ -669,7 +669,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9509E6E0864955FD2484B9B2 /* Pods-FanduelFppgTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XGHPNPX59;
@@ -691,7 +691,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 754B5DFC1689BADA91047CF5 /* Pods-FanduelFppgTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XGHPNPX59;

@@ -1,7 +1,8 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '10.0'
+platform :ios, "12"
 
 use_frameworks!
+inhibit_all_warnings!
+install! 'cocoapods', :deterministic_uuids => false
 
 target 'FanduelFppg' do
  pod 'Alamofire'
