@@ -39,7 +39,7 @@ class HomePresenter {
         self.userInterface = userInterface
     }
     
-    private func setupPlayers() {
+    private func setNewPlayers() {
         userInterface.showPlayerViews()
         guard let game = game else { return }
         
@@ -99,13 +99,13 @@ extension HomePresenter: HomeViewOutput {
     }
     
     func didTapNextButton() {
-        setupPlayers()
+        setNewPlayers()
     }
     
     func didTapNewGameButton() {
         guard let game = game else { return }
         game.resetGame()
-        setupPlayers()
+        setNewPlayers()
         userInterface.showNewGameButton(false)
     }
     
@@ -118,7 +118,7 @@ extension HomePresenter: HomeInteractorOutput {
     func playerLoadSuccess(players: [Player]) {
         game = PlayerGame(players: players)
         userInterface.showLoadingView(false)
-        setupPlayers()
+        setNewPlayers()
     }
     
     func playerLoadFailed() {

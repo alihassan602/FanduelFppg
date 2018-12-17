@@ -21,10 +21,11 @@
 		4177034B21C6F9F900BDED0C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177034A21C6F9F900BDED0C /* LoadingView.swift */; };
 		4177034E21C6FA1A00BDED0C /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177034D21C6FA1A00BDED0C /* StyleGuide.swift */; };
 		4177035021C6FC1000BDED0C /* PlayerViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177034F21C6FC1000BDED0C /* PlayerViewControl.swift */; };
+		4177035221C7087800BDED0C /* HomePresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177035121C7087800BDED0C /* HomePresenterSpec.swift */; };
+		4177035621C7090C00BDED0C /* HomeInteractorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177035521C7090C00BDED0C /* HomeInteractorSpec.swift */; };
 		41B1F93621C6F163008ECEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F93521C6F163008ECEF1 /* AppDelegate.swift */; };
 		41B1F93D21C6F164008ECEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93C21C6F164008ECEF1 /* Assets.xcassets */; };
 		41B1F94021C6F164008ECEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B1F93E21C6F164008ECEF1 /* LaunchScreen.storyboard */; };
-		41B1F94B21C6F164008ECEF1 /* FanduelFppgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1F94A21C6F164008ECEF1 /* FanduelFppgTests.swift */; };
 		F5B16BF8E8C7E9296310C416 /* Pods_FanduelFppgTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297D94E04B923628203AFDC6 /* Pods_FanduelFppgTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,13 +55,14 @@
 		4177034A21C6F9F900BDED0C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		4177034D21C6FA1A00BDED0C /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		4177034F21C6FC1000BDED0C /* PlayerViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewControl.swift; sourceTree = "<group>"; };
+		4177035121C7087800BDED0C /* HomePresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterSpec.swift; sourceTree = "<group>"; };
+		4177035521C7090C00BDED0C /* HomeInteractorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorSpec.swift; sourceTree = "<group>"; };
 		41B1F93221C6F163008ECEF1 /* FanduelFppg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanduelFppg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B1F93521C6F163008ECEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41B1F93C21C6F164008ECEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41B1F93F21C6F164008ECEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41B1F94121C6F164008ECEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B1F94621C6F164008ECEF1 /* FanduelFppgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanduelFppgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41B1F94A21C6F164008ECEF1 /* FanduelFppgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanduelFppgTests.swift; sourceTree = "<group>"; };
 		41B1F94C21C6F164008ECEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754B5DFC1689BADA91047CF5 /* Pods-FanduelFppgTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanduelFppgTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanduelFppgTests/Pods-FanduelFppgTests.release.xcconfig"; sourceTree = "<group>"; };
 		9425003F31C9CDEC1641C3F7 /* Pods-FanduelFppg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanduelFppg.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanduelFppg/Pods-FanduelFppg.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +201,23 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		4177035321C7088700BDED0C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4177035421C7089100BDED0C /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4177035421C7089100BDED0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4177035121C7087800BDED0C /* HomePresenterSpec.swift */,
+				4177035521C7090C00BDED0C /* HomeInteractorSpec.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		41B1F92921C6F163008ECEF1 = {
 			isa = PBXGroup;
 			children = (
@@ -235,7 +254,7 @@
 		41B1F94921C6F164008ECEF1 /* FanduelFppgTests */ = {
 			isa = PBXGroup;
 			children = (
-				41B1F94A21C6F164008ECEF1 /* FanduelFppgTests.swift */,
+				4177035321C7088700BDED0C /* Modules */,
 				41B1F94C21C6F164008ECEF1 /* Info.plist */,
 			);
 			path = FanduelFppgTests;
@@ -465,7 +484,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B1F94B21C6F164008ECEF1 /* FanduelFppgTests.swift in Sources */,
+				4177035621C7090C00BDED0C /* HomeInteractorSpec.swift in Sources */,
+				4177035221C7087800BDED0C /* HomePresenterSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
